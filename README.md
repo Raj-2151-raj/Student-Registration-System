@@ -15,7 +15,7 @@ A modern and responsive **Student Registration System** built using **HTML**, **
 ![Registration Form](screenshot1.png)
 
 ### 2. Student Records Table
-![Student Records Table](screenshot2.png)
+![Student Records Table](screenshot2.png)gf
 
 ## 💻 How to Use
 
