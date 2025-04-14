@@ -6,9 +6,9 @@
   <meta name="description" content="Efficient student registration system to add, edit, delete and view student records with a modern responsive UI using Tailwind CSS." />
     <meta name="keywords" content="Student Registration, Student Management, JavaScript, Tailwind CSS, Local Storage" />
     <meta name="author" content="Raj Thakur" />
-    
+
   <title>Student Registration System</title>
-  <!-- Tailwind CSS -->
+  <!------- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     /* Google font */
@@ -17,7 +17,7 @@
       font-family: 'Poppins', sans-serif;
     }
 
-    /* Styling for the student records container */
+       /* Styling for the student records container */
     #studentsTableWrapper {
       max-height: 300px; /* Fixed size for the container */
       overflow-y: auto; /* Enable vertical scrolling for overflow */
@@ -38,7 +38,7 @@
   </style>
 </head>
 <body class="bg-gradient-to-br from-green-100 via-blue-100 to-yellow-100 min-h-screen flex flex-col items-center">
-  <!-- Header Section -->
+  <!---- Header Section -->
   <header class="w-full bg-blue-700 text-white text-center py-8 shadow-md">
     <h1 class="text-4xl font-extrabold">Student Registration System</h1>
     <p class="mt-4 text-lg font-medium max-w-2xl mx-auto">
@@ -46,7 +46,7 @@
     </p>
   </header>
 
-  <!-- Registration Form Section -->
+  <!---- Registration Form Section -->
   <section id="registrationSection" class="w-11/12 max-w-4xl mt-8 bg-white p-8 rounded-lg shadow-lg">
     <h2 class="text-2xl font-bold text-blue-800 mb-6 text-center">Register New Student</h2>
     <form id="studentForm" class="grid gap-6">
@@ -76,7 +76,7 @@
     </form>
   </section>
 
-  <!-- Registered Students Records Section -->
+  <!-- --Registered Students Records Section -->
   <section id="recordsSection" class="w-11/12 max-w-4xl mt-8 bg-white p-8 rounded-lg shadow-lg">
     <h2 class="text-2xl font-bold text-blue-800 mb-6 text-center">Registered Students</h2>
     <p id="noRecordsMessage" class="text-center text-gray-500">No students registered yet.</p>
@@ -92,7 +92,7 @@
           </tr>
         </thead>
         <tbody id="studentsTable" class="text-gray-600">
-          <!-- Dynamic Rows -->
+          <!---- Dynamic Rows -->
         </tbody>
       </table>
     </div>
